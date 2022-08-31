@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+body{
+   overflow-x: hidden;
+ 
+}
+.nav-btn{
+    border: 0px solid;
+    background-image:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 18px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%)  ;
+
+transition-duration: 0.5s;
+}
+
+.nav-btn:hover{
+    opacity: 0.7;
+    background-image:linear-gradient(to right,hsl(192, 70%, 51%),hsl(136, 65%, 51%));
+
+}
+*{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: 550;
+}
+.nav-item{
+    transition-duration: 0.5s;
+    border-bottom: 0.7px solid white;
+}
+.nav-item:hover{
+    border-bottom: 0.7px solid hsl(136, 65%, 51%);
+}
+.nav-link{
+    color: hsl(0, 0%, 98%);
+}
+
+.partone{
+  
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+max-height: 800px;
+background: url("bg-intro-desktop.svg");
+background-repeat: no-repeat;
+background-position: right;
+
+}
+#btn2{
+    border: 0px solid;
+    background-image:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 18px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%)  ;
+
+transition-duration: 0.5s;
+}
+#btn2:hover{
+    opacity: 0.7;
+    background-image:linear-gradient(to right,hsl(192, 70%, 51%),hsl(136, 65%, 51%));
+
+}
+.Text{
+    width: 600px;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.image{
+    position: relative;
+    top: 80px;
+}
+.parttwo{
+    background-color: hsl(0, 0%, 98%);
+}
+.why{
+    padding: 90px;
+}
+.cards{
+    padding-left: 80px;
+    padding-bottom: 100px ;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.cards > section> p{
+    color: hsl(233, 8%, 62%);
+
+}
+
+.card-body > p{
+    color: hsl(233, 8%, 62%);
+}
+.card{
+    margin-bottom: 80px;
+}
+footer {
+    background-color: hsl(233, 26%, 24%);
+}
+.logoSocial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.logo{
+    margin-bottom: 60px;
+}
+.social > img{
+    margin-right: 10px;
+}
+.btn-footer{
+    border: 0px solid;
+    background-image:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 18px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%)  ;
+
+transition-duration: 0.5s;
+}
+
+.btn-footer:hover{
+    opacity: 0.7;
+    background-image:linear-gradient(to right,hsl(192, 70%, 51%),hsl(136, 65%, 51%));
+}
+
+.cont2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.side{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(hsl(192, 70%, 51%),hsl(136, 65%, 51%));
+    width: 50px;
+    height: 42px;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+transition-duration: 0.5s;
+}
+.side:hover{
+    opacity: 0.7;
+}
+.side > img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#sidemenu{
+    background-color:  hsl(0, 100%, 100%);
+    height: 100%;
+    z-index: 20;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 0 10px hsl(0deg 0% 0% / 10%);
+ position: fixed;
+ top: 0;
+ left: -100%;
+ transition: 0.6s ease;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ border-radius: 0px 20px 20px 0px;
+ }
+ #sidemenu > div > p{
+     font-family: "Poppins", sans-serif;
+     font-size: 20px;
+     color: linear-gradient( hsl(192, 70%, 51%),hsl(136, 65%, 51%));
+     
+ 
+ }
+ 
+ #sidemenu > div {
+ 
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-around;
+ 
+ }
+ #sidemenu > div > i{
+ 
+     margin-top: 25px;
+     font-size: 25px;
+     cursor: pointer;
+ }
+ #sidemenu > a{
+ 
+ text-decoration: none;
+ font-family: "Poppins", sans-serif;
+     font-size: 17px;
+     color: black;
+     margin-left: 50px;
+ 
+ }
+/*Media Quereis*/
+
+@media (max-width:1507px) {
+    
+    .partone{
+  
+        display: flex;
+        flex-direction: row;
+    justify-content: space-around;
+    max-height: fit-content;
+    background: url("bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right -150px;    
+    }
+    .image{
+        position: relative;
+        top: 80px;
+    }
+
+    .Text{
+        width: 600px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: 372px;
+    }
+}
+
+@media (max-width:1265px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: row;
+    justify-content: space-around;
+    max-height: fit-content;
+    background: url("bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 450px -150px;
+    }
+    .image{
+        position: relative;
+        top: 80px;
+    }
+
+    .Text{
+        width: 600px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: 90px;
+        }
+}
+
+@media (max-width:1025px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: row;
+    justify-content: space-around;
+    max-height: fit-content;
+    background: url("bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 450px -150px;
+    }
+    .image{
+        position: relative;
+        top: 80px;
+        width: 500px;
+        height: 600px;
+    }
+
+    .Text{
+        width: 600px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: 90px;
+        }
+}
+@media (max-width:909px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: row;
+    justify-content: space-around;
+    max-height: fit-content;
+    background: url("bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 350px -150px;    }
+    .image{
+        position: relative;
+    top: 39px;
+    width: 455px;
+    height: 543px;
+    }
+
+    .Text{
+        width: 600px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: -50px;
+        }
+   
+}
+
+@media (max-width:771px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url(bg-intro-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: center -350px;
+}
+    .image{
+        position: relative;
+    top: 52px;
+    width: 455px;
+    height: 543px;
+    left: 208px;
+    }
+
+    .Text{
+        width: 600px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: -77px;
+        }
+}
+
+@media (max-width:663px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url("bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: center -350px;
+}
+    .image{
+        position: relative;
+        top: 52px;
+        width: 455px;
+        height: 543px;
+        left: 122px;
+    }
+    
+
+    .Text{
+        width: 600px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: -77px;
+        }
+}
+@media (max-width:600px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url("bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: center -350px;
+
+}
+    .image{
+        position: relative;
+        top: 52px;
+        width: 367px;
+        height: 449px;
+        left: 122px;
+    }
+    
+
+    .Text{
+        width: 407px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: -77px;
+        }
+}
+
+@media (max-width:563px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url("bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: center -350px;
+
+}
+    .image{
+        position: relative;
+        top: 52px;
+        width: 367px;
+        height: 449px;
+        left: 122px;
+    }
+    
+
+    .Text{
+        width: 407px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: -77px;
+        }
+        .why > p{
+            width: 290px;     
+           }
+           .nav-item{
+            display: none;
+           }
+           .side{
+            display: block;
+           }
+}
+
+@media (max-width:489px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url("bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: center -350px;
+
+}
+    .image{
+        position: relative;
+        top: 52px;
+        width: 367px;
+        height: 449px;
+        left: 62px;
+    }
+    
+
+    .Text{
+        width: 407px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: -77px;
+        }
+        .why > p{
+            width: 290px;     
+           }
+}
+
+@media (max-width:430px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url("bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: center -350px;
+
+}
+    .image{
+        position: relative;
+        top: 82px;
+        width: 334px;
+        height: 413px;
+        left: 50px;
+    }
+    
+
+    .Text{
+        width: 407px;
+        padding-top: 100px;
+        padding-left: 65px;
+        position: relative;
+        top: -10px;
+        }
+        .why > p{
+            width: 290px;     
+           }
+           .cont2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .btn-footer{
+            margin-left: 50px;
+        }
+}
+
+
+@media (max-width:407px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url("bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: center -370px;
+
+}
+    .image{
+        position: relative;
+        top: 82px;
+        width: 298px;
+        height: 361px;
+        left: 50px;
+    }
+    
+
+    .Text{
+        width: 370px;
+    padding-top: 100px;
+    padding-left: 15px;
+    position: relative;
+    top: -10px;
+        }
+        .why > p{
+            width: 290px;     
+           }
+}
+
+@media (max-width:380px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url("bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: center -370px;
+
+}
+    .image{
+        position: relative;
+        top: 82px;
+        width: 298px;
+        height: 361px;
+        left: 50px;
+    }
+    
+
+    .Text{
+        width: 267px;
+        padding-top: 100px;
+        padding-left: 15px;
+        position: relative;
+        top: -10px;
+        }
+        .why > p{
+            width: 229px;           }
+}
+
+
+
+@media (max-width:348px) {
+    .partone{
+  
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-height: fit-content;
+        background: url("bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: center -370px;
+
+}
+    .image{
+        position: relative;
+        top: 82px;
+        width: 298px;
+        height: 361px;
+        left: 14px;
+    }
+    
+
+    .Text{
+        width: 267px;
+        padding-top: 100px;
+        padding-left: 15px;
+        position: relative;
+        top: -10px;
+        }
+        .why > p{
+            width: 229px;    
+        }
+        .why{
+            padding-top: 90px;
+            padding-right: 70px;
+            padding-bottom: 90px;
+            padding-left: 50px;
+
+        }
+        .cards{
+            padding-left: 49px;
+            
+        }
+        
+}
